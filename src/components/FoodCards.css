@@ -1,0 +1,156 @@
+.foodcard {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0 0 3px;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: "Roboto";
+  }
+  
+  @media (max-width: 576px) {
+    .foodcard {
+      gap: 5px;
+    }
+  }
+  
+  /* .foodcard .hallmark {
+    width: 10%;
+  } */
+  
+  .hallmark .outside-hallmark {
+    border: 2px solid green;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outside-hallmark .inside-hallmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: green;
+  }
+  
+  .hallmark .red-outside-hallmark {
+    border: 2px solid brown;
+  }
+  
+  .hallmark .red-hallmark {
+    background-color: brown;
+  }
+  
+  .foodcard .info {
+    width: 60%;
+  }
+  
+  .foodcard .cusine {
+    width: 30%;
+    text-align: right;
+  }
+  
+  @media (min-width: 768px) {
+    .foodcard .cusine {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  
+  .foodcard .cusine img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .cusine .cusine-para {
+    color: rgb(193, 110, 21);
+    font-size: 15px;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+  }
+  
+  .foodcard .calories-para {
+    color: rgb(193, 110, 21);
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .foodcard .calories-para {
+      display: none;
+    }
+  
+    .cusine .cusine-para {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .foodcard .cusine img {
+      width: 55%;
+      height: 80%;
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .foodcard .cusine img {
+      width: 40%;
+      height: 80%;
+    }
+  }
+  
+  @media (min-width: 1440px) and (max-width: 2560px) {
+    .foodcard .cusine img {
+      width: 35%;
+      height: 80%;
+    }
+  }
+  
+  .info .incr-decr-conatainer {
+    display: flex;
+    width: 120px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .info .incr-decr-conatainer p {
+    margin: 0px;
+  }
+  
+  .info .incr-decr-conatainer button {
+    background-color: transparent;
+    border: 0px solid;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .info h2,
+  .info h4,
+  .info .description {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .info h4 {
+    color: #686464;
+  }
+  
+  .info .description {
+    color: #8a8787;
+  }
+  
+  .info .addon-para {
+    color: rgb(103, 103, 237);
+  }

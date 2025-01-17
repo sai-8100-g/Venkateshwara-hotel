@@ -1,0 +1,27 @@
+.serve-button {
+    width: fit-content;
+    background-color: rgb(18, 224, 94);
+    border: 0px solid;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .no-order-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .no-order-container img {
+    width: 30%;
+    border-radius: 30px;
+  }
+  
+  @media (max-width: 576px) {
+    .no-order-container img {
+      width: 80%;
+    }
+  }

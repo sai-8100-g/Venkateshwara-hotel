@@ -1,0 +1,22 @@
+.tabs {
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .tabs button {
+    text-align: center;
+    padding: 10px 50px;
+    border: 0px solid;
+    min-width: fit-content;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .tabs .button-selected {
+    color: rgb(163, 55, 55);
+  }
